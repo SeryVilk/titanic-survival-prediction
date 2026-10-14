@@ -51,11 +51,7 @@
 ## Что реализовано
 
 - Разведочный анализ и обработка пропусков (`Age`, `Fare`, `Embarked`, `Deck`)
-- Feature engineering:
-  - `Title` из имени пассажира
-  - `FamilySize` и `IsAlone`
-  - `Deck` из номера каюты
-  - `TicketPrefix` из номера билета
+- Feature engineering: `Title` из имени пассажира, `FamilySize` и `IsAlone`, `Deck` из номера каюты, `TicketPrefix` из номера билета
 - Биннинг числовых признаков (`AgeBin`, `FareBin`)
 - One-hot encoding категориальных признаков
 - Взаимодействия признаков (`Sex_Pclass`, `FamSize_Pclass`, `Age_Pclass`)
